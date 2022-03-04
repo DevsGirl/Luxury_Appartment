@@ -1,0 +1,137 @@
+ /* XL Device :1200px. */
+ @media (min-width: 1200px) and (max-width: 1500px) {}
+
+ /* LG Device :992px. */
+ @media (min-width: 992px) and (max-width: 1200px) {
+
+
+
+ }
+
+ /* MD Device :768px. */
+ @media (min-width: 768px) and (max-width: 991px) {
+
+    .chancellor-info h2 {
+        font-size: 20px;
+    }
+    .community-image h3 {
+        font-size: 16px;
+    }
+    .service-title h2 {
+        font-size: 30px;
+    }
+    .service-text h3 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .slider-img img {
+        top: 84px;
+        left: 247px;
+    }
+    .service-title p {
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+    .tour-heading h3 {
+        font-size: 26px;
+    }
+    .gallery-content p {
+        font-size: 11px;
+        /* text-align: justify; */
+    }
+    .footer-img img {
+        width: 50%;
+    }
+
+ }
+
+
+ /* Extra small Device. */
+ @media (max-width: 767px) {
+    .slider-img img {
+        top: 45px;
+        left: 247px;
+    }
+    .slider-content p {
+        font-size: 20px;     
+    }
+    .slider-content h1 {
+        font-size: 36px;  
+    }
+    .contact-wrappeer {
+        display: block;
+    }
+    .chancellor-info h2 {
+        font-size: 14px;
+    }
+    .chancellor-info p {
+        text-align: justify;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .section-title p {
+        font-size: 12px;
+    }
+    .community-image h3 {
+        font-size: 25px;
+    }
+    .service-title h2 {
+        font-size: 22px;
+    }
+    .service-button {
+        padding: 0 152px;
+    }
+    .gallery-content p {
+        font-size: 12px;
+    }
+    .tour-heading h3 {
+        font-size: 12px;
+    }
+    .svg-inline--fa.fa-chevron-right.fa-w-10 {
+        margin-top: 14px;
+    }
+    .footer-img img {
+        margin-bottom: 30px;
+        width: 47%;
+    }
+    .copyright-icon {
+        font-size: 26px;  
+        float: right;
+    }
+    .copyright p {
+        font-size: 13px;
+    }
+    .copyright-icon {
+        float: right;
+        margin-top: -25px;
+    }
+    .copyright-icon a {
+        margin-right: 10px;
+    }
+    .service-button {
+        padding: 0;
+    }
+ }
+
+
+ 
+
+
+
+
+ @media only screen and (-webkit-min-device-pixel-ratio:2),
+ only screen and (min--moz-device-pixel-ratio:2),
+ only screen and (-o-min-device-pixel-ratio:2/1),
+ only screen and (min-device-pixel-ratio:2),
+ only screen and (min-resolution:192dpi),
+ only screen and (min-resolution:2dppx) {
+     .logo .standard-logo {
+         display: none;
+     }
+
+     .logo .retina-logo {
+         display: inline-block;
+     }
+
+ }
